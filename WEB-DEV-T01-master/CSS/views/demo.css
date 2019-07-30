@@ -1,0 +1,88 @@
+﻿.table-content{
+    height: 500px;
+    overflow: auto;
+}
+
+.main-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .main-table th {
+        border: 1px solid #000;
+    }
+
+    .main-table td {
+        border: 1px solid #000;
+    }
+
+.uncheck {
+    width: 24px;
+    background: url('/Contents/images/uncheck.png') center no-repeat;
+}
+
+.select{
+    background-color: #00ff21;
+}
+
+.tick {
+    background-color: #00ff21;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#dialog{
+    display: none;
+}
+
+    #dialog .contain {
+        width: 100%;
+    }
+        #dialog .contain.input-data {
+            height: 70%;
+            background-color: aquamarine;
+            display: flex;
+        }
+        #dialog .contain.button-data {
+            height: 70%;
+            background-color: blue;
+        }
+.input-data .sub-contain {
+    width: 50%;
+    border: 1px solid red;
+}
+    .input-data .sub-contain .input-title {
+        display: flex;
+        margin-bottom: 8px;
+        height: 40px;
+        align-items:center;
+    }
+        .input-data .sub-contain .input-title .title {
+            width: 30%;
+        }
+        .input-data .sub-contain .input-title .input {
+            width: 70%;
+        }
+        .input-data .sub-contain .input-title .input input {
+            height: 32px;
+            border-radius: 3px;
+            border: 1px solid #000;
+            padding: 0 8px;
+        }
+.button-data button {
+    height: 32px;
+    width: 50px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+    .button-data button.save {
+        background-color: #026b97;
+        color: #fff;
+    }
